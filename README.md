@@ -1,1 +1,1 @@
-# karina-react-tutorial
+# karina-github-battle
