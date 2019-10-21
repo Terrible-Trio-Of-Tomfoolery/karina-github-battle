@@ -1,8 +1,13 @@
 import React, {Component} from 'react';
-import Hello from './Hello'
+import './index.css'
+import Popular from './components/Popular'
 
 export default class App extends Component {
     render() {
-     <Hello />
+        return (
+        <div className='container'>
+            <Popular/>
+        </div>
+        )
     };
 }
