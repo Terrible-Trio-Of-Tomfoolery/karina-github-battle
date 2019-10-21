@@ -1,36 +1,8 @@
-import React from 'react';
+import React, {Component} from 'react';
+import Hello from './Hello'
 
-// Component
-// State
-// Lifecycle ->
-// UI -> render
-
-export default class App extends React.Component {
-
-    isAuthorised() {
-        return true;
-    }
-
-    isExisting() {
-        return true;
-    }
+export default class App extends Component {
     render() {
-        let message = "";
-
-        if (this.isAuthorised()) {
-            message = "Welcome";
-            if (this.isExisting()) {
-                message += " Back"
-            }
-            message += "!"
-        } else {
-            message = "Login"
-        }
-
-        return (
-            <div>
-                {message}
-            </div>
-        )
+     <Hello />
     };
 }
