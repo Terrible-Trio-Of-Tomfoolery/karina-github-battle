@@ -18,9 +18,5 @@ describe('Hello', () => {
             const helloWithName = shallow(<Hello name='Karina'/>);
             expect(helloWithName.text()).toBe('Hello Karina!');
         });
-        it('should display name ', () => {
-            const helloWithName = shallow(<Hello name=0/>);
-            expect(helloWithName.text()).toBe('Hello Karina!');
-        });
     });
 });

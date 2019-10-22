@@ -2,17 +2,12 @@ import React from 'react'
 import {shallow, render} from 'enzyme'
 
 import App from './App'
-import Hello from "./Hello";
+import Popular from "./components/Popular";
 
 describe('App', () => {
-    let wrapper, app;
-    beforeAll(() => {
-        wrapper = shallow(<App/>);
-    });
-    beforeEach(() => {
-        app = wrapper.instance();
-    });
     it('should not crash on render', () => {
-        expect(wrapper.find(Hello)).not.toBeNull();
+        let wrapper = shallow(<App/>);
+
+        expect(wrapper.find(Popular)).not.toBeNull();
     });
 });
