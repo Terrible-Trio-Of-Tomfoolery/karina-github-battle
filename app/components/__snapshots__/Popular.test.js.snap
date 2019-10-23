@@ -1,0 +1,48 @@
+exports[`Popular renders correctly 1`] = `
+<ul
+  className="flex-centre"
+>
+  <li>
+    <button
+      className="btn-clear nav-link"
+    >
+      All
+    </button>
+  </li>
+  <li>
+    <button
+      className="btn-clear nav-link"
+    >
+      JavaScript
+    </button>
+  </li>
+  <li>
+    <button
+      className="btn-clear nav-link"
+    >
+      Ruby
+    </button>
+  </li>
+  <li>
+    <button
+      className="btn-clear nav-link"
+    >
+      Java
+    </button>
+  </li>
+  <li>
+    <button
+      className="btn-clear nav-link"
+    >
+      CSS
+    </button>
+  </li>
+  <li>
+    <button
+      className="btn-clear nav-link"
+    >
+      Python
+    </button>
+  </li>
+</ul>
+`;
